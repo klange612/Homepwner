@@ -19,6 +19,6 @@
 +(PossessionStore *)defaultStore;
 
 -(NSArray *)allPossessions;
--(Possession *)createPossessions;
+-(Possession *)createPossession;
 
 @end

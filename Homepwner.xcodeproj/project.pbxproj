@@ -20,6 +20,7 @@
 		53DAA1CF173B31A700BF2E16 /* HomepwnerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DAA1CE173B31A700BF2E16 /* HomepwnerViewController.m */; };
 		53DAA1D7173B331300BF2E16 /* ItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DAA1D6173B331300BF2E16 /* ItemsViewController.m */; };
 		53DAA1DC173B356000BF2E16 /* PossessionStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DAA1DB173B356000BF2E16 /* PossessionStore.m */; };
+		53DAA1DD173B3E6B00BF2E16 /* Possession.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DAA1D9173B34F100BF2E16 /* Possession.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -188,6 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53DAA1DD173B3E6B00BF2E16 /* Possession.m in Sources */,
 				53DAA1BF173B31A700BF2E16 /* main.m in Sources */,
 				53DAA1C3173B31A700BF2E16 /* HomepwnerAppDelegate.m in Sources */,
 				53DAA1CF173B31A700BF2E16 /* HomepwnerViewController.m in Sources */,

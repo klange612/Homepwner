@@ -41,7 +41,7 @@
                           valueInDollars:randomValue 
                             serialNumber:randomSerialNumber];
 
-    return [newPossession autorelease];
+    return newPossession;
 }
 
 - (id)initWithPossessionName:(NSString *)name 
@@ -88,12 +88,5 @@
                             dateCreated];
 }
 
-- (void)dealloc
-{
-    [possessionName release];
-    [serialNumber release];
-    [dateCreated release];
-    [super dealloc];
-}
 
 @end

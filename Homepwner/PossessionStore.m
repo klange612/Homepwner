@@ -18,7 +18,7 @@ static PossessionStore *defaultStore = nil;
     return allPossessions;
 }
 
--(Possession *)createPossessions
+-(Possession *)createPossession
 {
     Possession *p = [Possession randomPossession];
     [allPossessions addObject:p];
