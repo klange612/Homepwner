@@ -18,6 +18,8 @@
 		53DAA1C9173B31A700BF2E16 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53DAA1C8173B31A700BF2E16 /* Default-568h@2x.png */; };
 		53DAA1CC173B31A700BF2E16 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53DAA1CA173B31A700BF2E16 /* MainStoryboard.storyboard */; };
 		53DAA1CF173B31A700BF2E16 /* HomepwnerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DAA1CE173B31A700BF2E16 /* HomepwnerViewController.m */; };
+		53DAA1D7173B331300BF2E16 /* ItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DAA1D6173B331300BF2E16 /* ItemsViewController.m */; };
+		53DAA1DC173B356000BF2E16 /* PossessionStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DAA1DB173B356000BF2E16 /* PossessionStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,12 @@
 		53DAA1CB173B31A700BF2E16 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		53DAA1CD173B31A700BF2E16 /* HomepwnerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomepwnerViewController.h; sourceTree = "<group>"; };
 		53DAA1CE173B31A700BF2E16 /* HomepwnerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomepwnerViewController.m; sourceTree = "<group>"; };
+		53DAA1D5173B331300BF2E16 /* ItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsViewController.h; sourceTree = "<group>"; };
+		53DAA1D6173B331300BF2E16 /* ItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsViewController.m; sourceTree = "<group>"; };
+		53DAA1D8173B34F100BF2E16 /* Possession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Possession.h; sourceTree = "<group>"; };
+		53DAA1D9173B34F100BF2E16 /* Possession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Possession.m; sourceTree = "<group>"; };
+		53DAA1DA173B356000BF2E16 /* PossessionStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PossessionStore.h; sourceTree = "<group>"; };
+		53DAA1DB173B356000BF2E16 /* PossessionStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PossessionStore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,8 @@
 		53DAA1A6173B31A700BF2E16 = {
 			isa = PBXGroup;
 			children = (
+				53DAA1D5173B331300BF2E16 /* ItemsViewController.h */,
+				53DAA1D6173B331300BF2E16 /* ItemsViewController.m */,
 				53DAA1B8173B31A700BF2E16 /* Homepwner */,
 				53DAA1B1173B31A700BF2E16 /* Frameworks */,
 				53DAA1B0173B31A700BF2E16 /* Products */,
@@ -88,6 +98,10 @@
 				53DAA1CA173B31A700BF2E16 /* MainStoryboard.storyboard */,
 				53DAA1CD173B31A700BF2E16 /* HomepwnerViewController.h */,
 				53DAA1CE173B31A700BF2E16 /* HomepwnerViewController.m */,
+				53DAA1D8173B34F100BF2E16 /* Possession.h */,
+				53DAA1D9173B34F100BF2E16 /* Possession.m */,
+				53DAA1DA173B356000BF2E16 /* PossessionStore.h */,
+				53DAA1DB173B356000BF2E16 /* PossessionStore.m */,
 				53DAA1B9173B31A700BF2E16 /* Supporting Files */,
 			);
 			path = Homepwner;
@@ -177,6 +191,8 @@
 				53DAA1BF173B31A700BF2E16 /* main.m in Sources */,
 				53DAA1C3173B31A700BF2E16 /* HomepwnerAppDelegate.m in Sources */,
 				53DAA1CF173B31A700BF2E16 /* HomepwnerViewController.m in Sources */,
+				53DAA1D7173B331300BF2E16 /* ItemsViewController.m in Sources */,
+				53DAA1DC173B356000BF2E16 /* PossessionStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
